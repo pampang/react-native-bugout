@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0528CC7609306A367CFC8C86B28BC4754BB8568E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9E006B0747C9557387D899E03BEE77210A122C1D" : 9223372036854775807,
+    "0528CC7609306A367CFC8C86B28BC4754BB8568E" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3E357DC7-D4DE-49BF-AE81-D02EBC3E509D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9E006B0747C9557387D899E03BEE77210A122C1D" : "..",
+    "0528CC7609306A367CFC8C86B28BC4754BB8568E" : "react-native-bugout\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RNBugout",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ios\/RNBugout\/RNBugout.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pampang\/react-native-bugout.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0528CC7609306A367CFC8C86B28BC4754BB8568E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/shefenqi\/mall.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9E006B0747C9557387D899E03BEE77210A122C1D"
+    }
+  ]
+}
