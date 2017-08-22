@@ -1,0 +1,26 @@
+{
+  "name": "react-native-bugout",
+  "version": "0.0.1",
+  "description": "bugout sdk for react-native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shefenqi/react-native-bugout.git"
+  },
+  "keywords": [
+    "react-native",
+    "ios",
+    "android",
+    "alipush"
+  ],
+  "dependencies": {},
+  "author": "pampang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shefenqi/react-native-bugout/issues"
+  },
+  "homepage": "https://github.com/shefenqi/react-native-bugout#readme"
+}
