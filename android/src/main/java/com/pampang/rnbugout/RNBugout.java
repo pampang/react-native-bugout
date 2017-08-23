@@ -24,7 +24,7 @@ public class RNBugout extends ReactContextBaseJavaModule {
     // 覆写getName方法，它返回一个字符串名字，在JS中我们就使用这个名字调用这个模块
     @Override
     public String getName() {
-        return "Bugout";
+        return "RNBugout";
     }
 
     public static void init(Context applicationContext, String appKey, String channel) {
