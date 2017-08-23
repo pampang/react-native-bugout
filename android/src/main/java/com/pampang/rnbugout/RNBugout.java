@@ -45,6 +45,9 @@ public class RNBugout extends ReactContextBaseJavaModule {
 //                .withLogcat(true)  // 是否系统操作信息
                 .build();
         Bugout.init(config);
+
+        // 如果关闭了QAMaster，会导致无法再设置shakeStatus。所以手动设置一下。
+        Bugout.setShakeStatus(applicationContext, false);
     }
 
     @ReactMethod
@@ -57,8 +60,9 @@ public class RNBugout extends ReactContextBaseJavaModule {
         Bugout.setShakeStatus(getReactApplicationContext(), status);
     }
 
-    @ReactMethod
-    public void getShakeStatus() {
-        // promise 返回数据
-    }
+//    @ReactMethod
+//    public void getShakeStatus() {
+//        // promise 返回数据
+//
+//    }
 }
