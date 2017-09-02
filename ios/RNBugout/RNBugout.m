@@ -17,9 +17,19 @@ RCT_EXPORT_MODULE();
     BugoutConfig* config = [BugoutConfig defaultConfig];
     [Bugout init:appKey channel:channel config:config];
     
-    // 如果直接设置 config.enabledShakeFeedback = YES; ，会导致setShakeStatus方法不管用，所以用一些比较hack的方法
+    // 默认设置为禁用状态（但在ios下似乎不管用）
+    // 如果直接设置 config.enabledShakeFeedback = NO; ，会导致setShakeStatus方法不管用，所以用一些比较hack的方法
     [Bugout enabledShakeFeedback:NO];
 }
+
++(void)initBugoutWithNoFeedback:(NSString *)appKey channel:(NSString *)channel {
+    BugoutConfig* config = [BugoutConfig defaultConfig];
+    
+    // 直接禁用shakeFeedback，之后无法再启用
+    config.enabledShakeFeedback = NO;
+    [Bugout init:appKey channel:channel config:config];
+}
+
 
 /**
  * 对js端暴露的init方法

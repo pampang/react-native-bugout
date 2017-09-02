@@ -17,5 +17,6 @@
 @interface RNBugout : NSObject <RCTBridgeModule>
 
 +(void)initBugout:(NSString *)appKey channel:(NSString *)channel;
++(void)initBugoutWithNoFeedback:(NSString *)appKey channel:(NSString *)channel;
 
 @end
