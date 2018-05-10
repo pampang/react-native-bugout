@@ -235,7 +235,7 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../react-native/React/**",
-					"$(SRCROOT)/../../../ios/**",
+					"$(SRCROOT)/../../../ios/extra_bundles/**",
 					"$(SRCROOT)/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
@@ -254,7 +254,7 @@
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../react-native/React/**",
-					"$(SRCROOT)/../../../ios/**",
+					"$(SRCROOT)/../../../ios/extra_bundles/**",
 					"$(SRCROOT)/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
